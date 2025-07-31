@@ -5,7 +5,6 @@ The dataset of this project belongs to a UK-based and registered, non-store onli
 The company has significant amounts of data on its sales, product offerings, and customer geographies that has been previously underutilized. This project throughly analyzes and synthesizes this data in order to uncover meaningful patterns and segments to improve the company's success. </l>
 
 2. Data Structure Overview <br>
-
 <ul> 
   <li> InvoiceNo: Invoice number. Nominal. A 6-digit integral number uniquely assigned to each transaction. If this code starts with the letter 'c', it indicates a cancellation. </li>
 <li> StockCode: Product (item) code. Nominal. A 5-digit integral number uniquely assigned to each distinct product. </li>
