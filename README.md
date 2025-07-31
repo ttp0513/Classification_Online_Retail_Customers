@@ -1,8 +1,8 @@
 # Classification_Online_Retail_Customers
 
-1. Project Background
-<l> The dataset of this project belongs to a UK-based and registered, non-store online retail company that mainly sells unique all-occasion gift-ware. Many customers of the company are wholesalers. </l>
-<l> The company has significant amounts of data on its sales, product offerings, and customer geographies that has been previously underutilized. This project throughly analyzes and synthesizes this data in order to uncover meaningful patterns and segments to improve the company's success. </l>
+1. Project Background <br>
+The dataset of this project belongs to a UK-based and registered, non-store online retail company that mainly sells unique all-occasion gift-ware. Many customers of the company are wholesalers.
+The company has significant amounts of data on its sales, product offerings, and customer geographies that has been previously underutilized. This project throughly analyzes and synthesizes this data in order to uncover meaningful patterns and segments to improve the company's success. </l>
 
 3. Data Structure Overview
 
