@@ -1,10 +1,10 @@
 # Classification_Online_Retail_Customers
 
 1. Project Background <br>
-The dataset of this project belongs to a UK-based and registered, non-store online retail company that mainly sells unique all-occasion gift-ware. Many customers of the company are wholesalers.
-The company has significant amounts of data on its sales, product offerings, and customers' countries that has been previously underutilized. This project throughly analyzes and synthesizes this data in order to uncover meaningful patterns and segments to improve the company's success. </l>
+<p> The dataset of this project belongs to a UK-based and registered, non-store online retail company that mainly sells unique all-occasion gift-ware. Many customers of the company are wholesalers.
+The company has significant amounts of data on its sales, product offerings, and customers' countries that has been previously underutilized. This project throughly analyzes and synthesizes this data in order to uncover meaningful patterns and segments to improve the company's success. </p>
 
-2. Data Structure Overview <br>
+2. Original Dataset Structure <br>
 
 <table>
   <tr>
@@ -22,13 +22,31 @@ The company has significant amounts of data on its sales, product offerings, and
     <td> Nominal </td>
     <td> A 5-digit integral number uniquely assigned to each distinct product </td>
   </tr> 
-
-<li> <strong> Description: </strong> Product (item) name. Nominal. </li>
-<li> <strong> Quantity:</strong> The quantities of each product (item) per transaction. Numeric.	</li>
-<li> <strong> InvoiceDate:</strong> Invice date and time. Numeric. The day and time when a transaction was generated. </li>
-<li> <strong> UnitPrice: </strong> Unit price. Numeric. Product price per unit in sterling (Â£). </li>
-<li> <strong> CustomerID:</strong> Customer number. Nominal. A 5-digit integral number uniquely assigned to each customer. </li>
-<li> <strong> Country: </strong> Country name. Nominal. The name of the country where a customer resides. </li>
+  <tr>
+    <td> <strong> Quantity:</strong> </td>
+    <td> Numeric </td>
+    <td> The quantities of each product (item) per transaction </td>
+  </tr>
+  <tr>
+    <td> InvoiceDate </td>
+    <td> Numeric </td>
+    <td> The day and time when a transaction was generated </td>
+  </tr>
+  <tr>
+    <td> UnitPrice </td>
+    <td> Numeric </td>
+    <td>  Product price per unit in sterling </td>
+  </tr>
+  <tr>
+    <td> CustomerID </td>
+    <td> Numeric </td>
+    <td> A 5-digit integral number uniquely assigned to each customer </td>
+  </tr>
+  <tr>
+    <td> Country </td>
+    <td> Nominal </td>
+    <td> The name of the country where a customer resides </td>
+  </tr>
 </table>
 
 3. Executive Summary
