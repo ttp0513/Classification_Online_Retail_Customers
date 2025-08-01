@@ -8,9 +8,9 @@ The company has significant amounts of data on its sales, product offerings, and
 
 <table>
   <tr>
-    <th> Data Name </th>
-    <th> Data Type </th>
-    <th> Data Description </th>
+    <th> Columns </th>
+    <th> Type </th>
+    <th> Description </th>
   </tr>
   <tr>
     <td> <strong> InvoiceNo </strong> </td>
