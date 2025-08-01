@@ -13,7 +13,7 @@ Insights and recommendations are provided on the following key areas:
 </ul>
 
 <h1> 2. Dataset Structure </h1>
-<p> The company's database structure as seen below consists of a single table with a total row count of 1,067,371 </p>
+<p> The company's database structure as seen below consists of a single table with a total row count of 525,460 </p>
 <table>
   <tr>
     <th> Columns </th>
