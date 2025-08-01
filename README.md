@@ -8,7 +8,7 @@ The company has significant amounts of data on its sales, product offerings, and
 
 <table>
   <tr>
-    <th> Data Column Name </th>
+    <th> Data Name </th>
     <th> Data Type </th>
     <th> Data Description </th>
   </tr>
