@@ -13,17 +13,17 @@ The company has significant amounts of data on its sales, product offerings, and
     <th> Data Description </th>
   </tr>
   <tr>
-    <td> <strong> InvoiceNo: </strong> </td>
+    <td> <strong> InvoiceNo </strong> </td>
     <td> Nominal </td>
     <td> A 6-digit integral number uniquely assigned to each transaction. If this code starts with the letter 'c', it indicates a cancellation. </li> </td>
   </tr>
   <tr>
-    <td> <strong> StockCode: </strong> </td>
+    <td> <strong> StockCode </strong> </td>
     <td> Nominal </td>
     <td> A 5-digit integral number uniquely assigned to each distinct product </td>
   </tr> 
   <tr>
-    <td> <strong> Quantity:</strong> </td>
+    <td> <strong> Quantity </strong> </td>
     <td> Numeric </td>
     <td> The quantities of each product (item) per transaction </td>
   </tr>
