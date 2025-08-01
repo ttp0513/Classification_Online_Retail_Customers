@@ -7,13 +7,13 @@ The company has significant amounts of data on its sales, product offerings, and
 2. Data Structure Overview <br>
 <ul> 
   <li> <strong> InvoiceNo: </strong> Invoice number. Nominal. A 6-digit integral number uniquely assigned to each transaction. If this code starts with the letter 'c', it indicates a cancellation. </li>
-<li> StockCode: Product (item) code. Nominal. A 5-digit integral number uniquely assigned to each distinct product. </li>
-<li> Description: Product (item) name. Nominal. </li>
-<li> Quantity: The quantities of each product (item) per transaction. Numeric.	</li>
-<li> InvoiceDate: Invice date and time. Numeric. The day and time when a transaction was generated. </li>
-<li> UnitPrice: Unit price. Numeric. Product price per unit in sterling (Â£). </li>
-<li> CustomerID: Customer number. Nominal. A 5-digit integral number uniquely assigned to each customer. </li>
-<li> Country: Country name. Nominal. The name of the country where a customer resides. </li>
+<li> <strong> StockCode: </strong> Product (item) code. Nominal. A 5-digit integral number uniquely assigned to each distinct product. </li>
+<li> <strong> Description: </strong> Product (item) name. Nominal. </li>
+<li> <strong> Quantity:</strong> The quantities of each product (item) per transaction. Numeric.	</li>
+<li> <strong> InvoiceDate:</strong> Invice date and time. Numeric. The day and time when a transaction was generated. </li>
+<li> <strong> UnitPrice: </strong> Unit price. Numeric. Product price per unit in sterling (Â£). </li>
+<li> <strong> CustomerID:</strong> Customer number. Nominal. A 5-digit integral number uniquely assigned to each customer. </li>
+<li> <strong> Country: </strong> Country name. Nominal. The name of the country where a customer resides. </li>
 </ul>
 
 
