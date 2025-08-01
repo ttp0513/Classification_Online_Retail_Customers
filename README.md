@@ -4,7 +4,7 @@
 <p> The dataset of this project belongs to a UK-based and registered, non-store online retail company that mainly sells unique all-occasion gift-ware. Many customers of the company are wholesalers.
 The company has significant amounts of data on its sales, product offerings, and customers' countries that has been previously underutilized. This project throughly analyzes and synthesizes this data in order to uncover meaningful patterns and segments to improve the company's success. </p>
 
-2. Original Dataset Structure <br>
+2. Dataset Structure <br>
 
 <table>
   <tr>
