@@ -28,22 +28,22 @@ The company has significant amounts of data on its sales, product offerings, and
     <td> The quantities of each product (item) per transaction </td>
   </tr>
   <tr>
-    <td> InvoiceDate </td>
+    <td> <strong> InvoiceDate </strong> </td>
     <td> Numeric </td>
     <td> The day and time when a transaction was generated </td>
   </tr>
   <tr>
-    <td> UnitPrice </td>
+    <td> <strong> UnitPrice </strong> </td>
     <td> Numeric </td>
     <td>  Product price per unit in sterling </td>
   </tr>
   <tr>
-    <td> CustomerID </td>
+    <td> <strong> CustomerID </strong> </td>
     <td> Numeric </td>
     <td> A 5-digit integral number uniquely assigned to each customer </td>
   </tr>
   <tr>
-    <td> Country </td>
+    <td> <strong> Country </strong> </td>
     <td> Nominal </td>
     <td> The name of the country where a customer resides </td>
   </tr>
