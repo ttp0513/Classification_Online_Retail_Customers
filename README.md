@@ -1,6 +1,6 @@
 # Classification_Online_Retail_Customers
 
-1. Project Background <br>
+<h1> 1. Project Background </h1>
 
 - The dataset of this project belongs to a UK-based and registered, non-store online retail company that mainly sells unique all-occasion gift-ware. Many customers of the company are wholesalers. <br>
 - The company has significant amounts of data on its sales, product offerings, and customers' countries that has been previously underutilized. This project throughly analyzes and synthesizes this data in order to uncover meaningful patterns and segments to improve the company's success. 
@@ -12,7 +12,7 @@ Insights and recommendations are provided on the following key areas:
   <li> <strong> Regional Comparison: </strong> Evaluation of sales and orders by Country </li>
 </ul>
 
-2. Dataset Structure <br>
+<h1> 2. Dataset Structure </h1>
 <p> The company's database structure as seen below consists of a single table with a total row count of 1,067,371 </p>
 <table>
   <tr>
@@ -56,6 +56,8 @@ Insights and recommendations are provided on the following key areas:
     <td> The name of the country where a customer resides </td>
   </tr>
 </table>
+
+<p> Prior to beginning of the analysis, a variety of checks were conducted for quality control and familiarization with the datasets. The Python script utilized to inspect and perform quality checks can be found here </p>
 
 3. Executive Summary
 
