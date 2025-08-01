@@ -6,7 +6,7 @@ The company has significant amounts of data on its sales, product offerings, and
 
 2. Data Structure Overview <br>
 <ul> 
-  <li> InvoiceNo: Invoice number. Nominal. A 6-digit integral number uniquely assigned to each transaction. If this code starts with the letter 'c', it indicates a cancellation. </li>
+  <li> <strong> InvoiceNo: </strong> Invoice number. Nominal. A 6-digit integral number uniquely assigned to each transaction. If this code starts with the letter 'c', it indicates a cancellation. </li>
 <li> StockCode: Product (item) code. Nominal. A 5-digit integral number uniquely assigned to each distinct product. </li>
 <li> Description: Product (item) name. Nominal. </li>
 <li> Quantity: The quantities of each product (item) per transaction. Numeric.	</li>
