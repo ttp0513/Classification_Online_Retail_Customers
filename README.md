@@ -2,7 +2,7 @@
 
 <h1> 1. Project Background </h1>
 
-- The dataset  of [this project] (https://archive.ics.uci.edu/dataset/502/online+retail+ii) belongs to a UK-based and registered, non-store online retail company that mainly sells unique all-occasion gift-ware. Many customers of the company are wholesalers. <br>
+- The dataset  of [this project](https://archive.ics.uci.edu/dataset/502/online+retail+ii) belongs to a UK-based and registered, non-store online retail company that mainly sells unique all-occasion gift-ware. Many customers of the company are wholesalers. <br>
 - The company has significant amounts of data on its sales, product offerings, and customers' countries that has been previously underutilized. This project thoroughly analyzes and synthesizes this data in order to uncover meaningful patterns and segments to improve the company's success. 
 
 Insights and recommendations are provided on the following key areas:
