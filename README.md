@@ -69,8 +69,11 @@ GitHub for version control and documentation </li>
 <h1> 3. Executive Summary </h1>
 <h3> Overview of Findings </h3>
 
-[Classification_Cluster_final](https://github.com/ttp0513/Classification_Online_Retail_Customers/blob/main/Cluster_classification_final.png)
+To enhance strategic decision-making and media optimization, we conducted a Kmeans clustering analysis on customer-level data to identify distinct behavioral segments. This initiative aimed to uncover actionable insights for personalized marketing, budget allocation, and product strategy.
+Below is the overview visualization of each cluster performance:
+<img width="1070" height="679" alt="image" src="https://github.com/user-attachments/assets/f26511f0-8636-4841-be04-5cd30555488b" />
 
-4. Insights Deep Dive
+<h1> 4. Insights Deep Dive </h1>
+<h3> Customer Segmentation Analysis </h3>
 
-5. Recommendations
+6. Recommendations
