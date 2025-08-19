@@ -72,7 +72,8 @@ GitHub for version control and documentation </li>
 Our customer segmentation analysis identified seven distinct groups based on recency, frequency, and monetary value, revealing critical insights into current business performance. The largest segment, NURTURE, comprises nearly half of our customer base, indicating strong acquisition but low conversion, and highlighting a need for onboarding and engagement strategies. High-value segments like DELIGHT and REWARD, though smaller in size, drive disproportionate revenue and should be prioritized for retention and VIP experiences. Meanwhile, RE-ENGAGE customers show signs of dormancy, presenting a clear opportunity for reactivation campaigns. These findings offer a roadmap for targeted marketing, resource allocation, and lifecycle strategy to improve customer value and long-term growth.
 
 Below is the overview visualization of each cluster performance:
-<img width="1189" height="990" alt="image" src="https://github.com/user-attachments/assets/b39f3d56-12fc-4ade-a60b-fdd41fe26ff9" />
+<img width="1189" height="989" alt="image" src="https://github.com/user-attachments/assets/04d7462e-9232-4da9-b387-5171b1f6d71f" />
+
 
 <h1> 4. Insights Deep Dive </h1>
 <h3> Customer Segmentation Analysis </h3>
