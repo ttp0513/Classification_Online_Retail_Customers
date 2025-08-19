@@ -15,7 +15,7 @@ Insights and recommendations are provided on the following key areas:
 
 ### Project Structure
 <ul>
-  <li> <code>leaned_df.xlxs</code>: cleaned datasets after EDA process </li>
+  <li> <code>cleaned_df.xlxs</code>: cleaned datasets after EDA process </li>
   <li> <code>online_retail_Customer_Clustering</code>: main script for featureing engineering, KMmean-Clustering, customer segmentation analysis, and strategy recommendations </li>
   <li> <code>online_retail_EDA_Cleaning</code>: main script for loading, preprocessing, EDA </li>
   
