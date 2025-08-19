@@ -64,7 +64,8 @@ Technologies Used:
   </tr>
 </table>
 
-<p> Prior to beginning of the analysis, a variety of checks were conducted for quality control and familiarization with the datasets. The Python script utilized to inspect and perform quality checks can be found [here](https://github.com/ttp0513/Classification_Online_Retail_Customers/blob/main/online_retail_EDA_Cleaning.ipynb) </p>
+Prior to beginning of the analysis, a variety of checks were conducted for quality control and familiarization with the datasets. The Python script utilized to inspect and perform quality checks can be found [here](https://github.com/ttp0513/Classification_Online_Retail_Customers/blob/main/online_retail_EDA_Cleaning.ipynb)
+
 
 <h1> 3. Executive Summary </h1>
 <h3> Overview of Findings </h3>
