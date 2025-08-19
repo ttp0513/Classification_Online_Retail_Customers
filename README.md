@@ -92,7 +92,7 @@ These groups should be prioritized for retention efforts, VIP experiences, and p
 Meanwhile, the RE-ENGAGE segment shows signs of low engagement and declining activity, presenting a clear opportunity for reactivation campaigns and win-back messaging.
 The following sections will provide a deeper breakdown of each customer segment and outline tailored marketing strategies to maximize lifetime value across the portfolio.
 
-Below is the overview visualization of each cluster performance:
+Below is the overview visualization of each cluster performance: <br>
 <img width="1189" height="989" alt="image" src="https://github.com/user-attachments/assets/04d7462e-9232-4da9-b387-5171b1f6d71f" />
 
 <h1> 4. Insights Deep Dive </h1>
