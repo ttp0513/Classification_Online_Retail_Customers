@@ -12,6 +12,13 @@ Insights and recommendations are provided on the following key areas:
   <li> <strong> Outlier Detection: </strong> Isolation of high-value or anomalous customers whose behavior significantly deviates from typical patterns, with recommendations for individualized follow-up or separate analysis. </li> </ul>
 </ul>
 
+Technologies Used: 
+<ul>
+<li> Python (pandas, seaborn, matplotlib, scikit-learn) </li>
+<li> Jupyter Notebook </li>
+GitHub for version control and documentation </li>
+</ul>
+
 <h1> 2. Dataset Structure </h1>
 <p> The company's database structure as seen below consists of a single table with a total row count of 525,460 </p>
 <table>
