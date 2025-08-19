@@ -3,7 +3,7 @@
 <h1> 1. Project Background </h1>
 
 - The [dataset](https://archive.ics.uci.edu/dataset/502/online+retail+ii) of this project belongs to a UK-based and registered, non-store online retail company that mainly sells unique all-occasion gift-ware. Many customers of the company are wholesalers. <br>
-- The company has significant amounts of data on its customers's sales data that has been previously underutilized. This project applies KMeans clustering to online retail data to uncover distinct customer segments based on Recency, Frequency, and Monetary Value (RFM). The goal is to support personalized marketing strategies and improve customer retention.
+- The company has significant amounts of data on its customers's sales data that has been previously underutilized. This project applies KMeans clustering to uncover distinct customer segments based on Recency, Frequency, and Monetary Value (RFM). The goal is to support personalized marketing strategies and improve customer retention.
 
 Insights and recommendations are provided on the following key areas:
 <ul>
