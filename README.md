@@ -9,9 +9,8 @@
 Insights and recommendations are provided on the following key areas:
 <ul>
   <li> <strong> Data Cleaning & EDA: </strong> Initial preprocessing to ensure that segmentation is based solely on valid, behavior-linked transactions.
-  <li> <strong> Outlier Detection: </strong> Isolation of high-value or anomalous customers whose behavior significantly deviates from typical patterns, with recommendations for individualized follow-up or separate analysis. </li> </ul>
+  <li> <strong> Outlier Detection: </strong> Isolation of high-value or anomalous customers whose behavior significantly deviates from typical patterns, with recommendations for individualized follow-up or separate analysis. </li> 
   <li> <strong> Customer Segmentation Analysis: </strong> Identification of distinct customer groups using RFM metrics (Recency, Frequency, Monetary), enabling targeted marketing strategies and personalized engagement. </li>
-
 </ul>
 
 ### Project Structure
