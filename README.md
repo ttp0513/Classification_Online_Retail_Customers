@@ -15,10 +15,9 @@ Insights and recommendations are provided on the following key areas:
 
 ### Project Structure
 <ul>
-  <li> <code>cleaned_df.xlxs</code>: cleaned datasets after EDA process </li>
+  <li> <code>cleaned_df.xlxs</code>: A cleaned dataset after EDA process </li>
   <li> <code>online_retail_Customer_Clustering</code>: main script for featureing engineering, KMmean-Clustering, customer segmentation analysis, and strategy recommendations </li>
   <li> <code>online_retail_EDA_Cleaning</code>: main script for loading, preprocessing, EDA </li>
-  
 </ul>
 
 ### Technologies Used: 
@@ -79,11 +78,24 @@ Prior to beginning of the analysis, a variety of checks were conducted for quali
 <h1> 3. Executive Summary </h1>
 <h3> Overview of Findings </h3>
 
-Our customer segmentation analysis identified seven distinct groups based on recency, frequency, and monetary value, revealing critical insights into current business performance. The largest segment, NURTURE, comprises nearly half of our customer base, indicating strong acquisition but low conversion, and highlighting a need for onboarding and engagement strategies. High-value segments like DELIGHT and REWARD, though smaller in size, drive disproportionate revenue and should be prioritized for retention and VIP experiences. Meanwhile, RE-ENGAGE customers show signs of dormancy, presenting a clear opportunity for reactivation campaigns. These findings offer a roadmap for targeted marketing, resource allocation, and lifecycle strategy to improve customer value and long-term growth.
+Our customer segmentation analysis identified seven distinct groups based on recency, frequency, and monetary value, revealing critical insights into current business performance.
+
+The largest segment, NURTURE, customers with low overall monetary value and limited purchase history but recent activity, comprises nearly half of our customer base. This suggests strong acquisition but low conversion, highlighting a need for targeted onboarding and engagement strategies.
+
+High-value segments such as DELIGHT, REWARD, and PAMPER, though smaller in size, contribute disproportionately to revenue.
+<ul>
+<li> DELIGHT customers are frequent purchasers with moderate spend, responding well to consistent value and personalized messaging. </li>
+<li>REWARD customers show high frequency and monetary value, making them ideal candidates for loyalty programs and exclusive perks. </li>
+<li>PAMPER customers are infrequent but high spenders, often driven by premium experiences and curated offerings. </li>
+</ul>
+These groups should be prioritized for retention efforts, VIP experiences, and personalized loyalty strategies to maximize lifetime value.
+
+Meanwhile, the RE-ENGAGE segment shows signs of low engagement and declining activity, presenting a clear opportunity for reactivation campaigns and win-back messaging.
+
+The following sections will provide a deeper breakdown of each customer segment and outline tailored marketing strategies to maximize lifetime value across the portfolio.
 
 Below is the overview visualization of each cluster performance:
 <img width="1189" height="989" alt="image" src="https://github.com/user-attachments/assets/04d7462e-9232-4da9-b387-5171b1f6d71f" />
-
 
 <h1> 4. Insights Deep Dive </h1>
 <h3> Customer Segmentation Analysis </h3>
