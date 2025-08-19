@@ -14,11 +14,11 @@ Insights and recommendations are provided on the following key areas:
 </ul>
 
 ### Project Structure
-<ul>
+<ol>
+  <li> <code>online_retail_EDA_Cleaning</code>: main script for loading, preprocessing, EDA </li>
   <li> <code>cleaned_df.xlxs</code>: A cleaned dataset after EDA process </li>
   <li> <code>online_retail_Customer_Clustering</code>: main script for featureing engineering, KMmean-Clustering, customer segmentation analysis, and strategy recommendations </li>
-  <li> <code>online_retail_EDA_Cleaning</code>: main script for loading, preprocessing, EDA </li>
-</ul>
+</ol>
 
 ### Technologies Used: 
 <ul>
@@ -71,9 +71,6 @@ Insights and recommendations are provided on the following key areas:
     <td> The name of the country where a customer resides </td>
   </tr>
 </table>
-
-Prior to beginning of the analysis, a variety of checks were conducted for quality control and familiarization with the datasets. The Python script utilized to inspect and perform quality checks can be found [here](https://github.com/ttp0513/Classification_Online_Retail_Customers/blob/main/online_retail_EDA_Cleaning.ipynb)
-
 
 <h1> 3. Executive Summary </h1>
 <h3> Overview of Findings </h3>
