@@ -66,7 +66,10 @@ GitHub for version control and documentation </li>
 
 <p> Prior to beginning of the analysis, a variety of checks were conducted for quality control and familiarization with the datasets. The Python script utilized to inspect and perform quality checks can be found here </p>
 
-3. Executive Summary
+<h1> 3. Executive Summary </h1>
+<h3> Overview of Findings </h3>
+
+Classification_Cluster_final["image_path"] = "images/Cluster_classification_final.png"
 
 4. Insights Deep Dive
 
