@@ -2,6 +2,7 @@
 
 <h1> 1. Project Background </h1>
 
+### Overview
 - The [dataset](https://archive.ics.uci.edu/dataset/502/online+retail+ii) of this project belongs to a UK-based and registered, non-store online retail company that mainly sells unique all-occasion gift-ware. Many customers of the company are wholesalers. <br>
 - The company has significant amounts of data on its customers's sales data that has been previously underutilized. This project applies KMeans clustering to uncover distinct customer segments based on Recency, Frequency, and Monetary Value (RFM). The goal is to support personalized marketing strategies and improve customer retention.
 
@@ -12,7 +13,15 @@ Insights and recommendations are provided on the following key areas:
   <li> <strong> Outlier Detection: </strong> Isolation of high-value or anomalous customers whose behavior significantly deviates from typical patterns, with recommendations for individualized follow-up or separate analysis. </li> </ul>
 </ul>
 
-Technologies Used: 
+### Project Structure
+<ul>
+  <li> <q>leaned_df.xlxs</q>c </li>
+  <li> online_retail_Customer_Clustering:  </li>
+  <li> online_retail_EDA_Cleaning: </li>
+  
+</ul>
+
+### Technologies Used: 
 <ul>
 <li> Python (pandas, seaborn, matplotlib, scikit-learn) </li>
 <li> Jupyter Notebook </li>
