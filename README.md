@@ -69,7 +69,7 @@ GitHub for version control and documentation </li>
 <h1> 3. Executive Summary </h1>
 <h3> Overview of Findings </h3>
 
-Classification_Cluster_final["image_path"] = "images/Cluster_classification_final.png"
+[Classification_Cluster_final](https://github.com/ttp0513/Classification_Online_Retail_Customers/blob/main/Cluster_classification_final.png)
 
 4. Insights Deep Dive
 
