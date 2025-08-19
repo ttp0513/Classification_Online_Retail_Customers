@@ -16,7 +16,7 @@ Technologies Used:
 <ul>
 <li> Python (pandas, seaborn, matplotlib, scikit-learn) </li>
 <li> Jupyter Notebook </li>
-GitHub for version control and documentation </li>
+<li> GitHub for version control and documentation </li>
 </ul>
 
 <h1> 2. Dataset Structure </h1>
