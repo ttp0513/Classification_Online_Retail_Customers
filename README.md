@@ -84,14 +84,12 @@ The largest segment, NURTURE, customers with low overall monetary value and limi
 
 High-value segments such as DELIGHT, REWARD, and PAMPER, though smaller in size, contribute disproportionately to revenue.
 <ul>
-<li> DELIGHT customers are frequent purchasers with moderate spend, responding well to consistent value and personalized messaging. </li>
-<li>REWARD customers show high frequency and monetary value, making them ideal candidates for loyalty programs and exclusive perks. </li>
-<li>PAMPER customers are infrequent but high spenders, often driven by premium experiences and curated offerings. </li>
+<li>DELIGHT: customers with high recency and frequency, and moderate spend. </li>
+<li>REWARD: customers with high recency, frequency, and monetary value, </li>
+<li>PAMPER: customers with low frequency but high monetary value and recent activity </li>
 </ul>
 These groups should be prioritized for retention efforts, VIP experiences, and personalized loyalty strategies to maximize lifetime value.
-
 Meanwhile, the RE-ENGAGE segment shows signs of low engagement and declining activity, presenting a clear opportunity for reactivation campaigns and win-back messaging.
-
 The following sections will provide a deeper breakdown of each customer segment and outline tailored marketing strategies to maximize lifetime value across the portfolio.
 
 Below is the overview visualization of each cluster performance:
