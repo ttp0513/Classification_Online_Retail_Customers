@@ -107,7 +107,7 @@ Before conducting segmentation, we applied rigorous data cleaning to ensure anal
 This filtering step improves the quality and interpretability of downstream clustering by removing noise and ensuring all records reflect real customer behavior.
 
 <h3> StockCode Filtering Logic </h3>
-StockCodes are expected to follow the pattern [0-9]{5}, though some valid entries extend to [0-9]{5}[a-zA-Z]+. However, several codes were excluded due to lack of relevance or linkage to customer behavior:
+StockCodes are usually five-digit numbers (like product IDs), and some valid ones include extra letters at the end. However, there are several codes that don’t represent actual products or customer purchases. These were excluded from the analysis because they don’t reflect real buying behavior and could distort our insights.
 
 <h3> Customer Outliers Detection </h3>
 
