@@ -99,7 +99,7 @@ Below is the overview visualization of each cluster performance:
 
 <h1> 4. Insights Deep Dive </h1>
 <h3> Data Cleaning & EDA </h3>
-Before conducting segmentation, we applied rigorous data cleaning to ensure analytical integrity and removed <strong>~23%</strong> of records from the original dataset due to
+Before conducting segmentation, I applied rigorous data cleaning to ensure analytical integrity and removed <strong>~23%</strong> of records from the original dataset due to
 </ul>
 <li> Null Customer IDs, which prevent linkage to individual profiles. </li>
 <li> Irrelevant StockCodes, identified through pattern mismatches and business logic.</li>
@@ -117,5 +117,26 @@ Outliers in Monetary Value and Frequency are visually evident in boxplots, where
 These outliers are not discarded, as they represent high-value, highly engaged customers of the client business. Therefore, another separate analysis was conducted to analyze top-tier customers behaviors without distorting the clustering of the broader population.
 
 <h3> Customer Segmentation Analysis </h3>
+Seven unique segments were identified, each representing a different stage in the customer lifecycle, from newly acquired to highly loyal.
+<img width="794" height="812" alt="image" src="https://github.com/user-attachments/assets/4f4cd814-65e7-4b30-aee8-a7f6522fbb39" />
+
+<h5> Non-outlier Customers </h5>
+<img width="1189" height="1790" alt="image" src="https://github.com/user-attachments/assets/3f93ce0d-3061-48c9-87c9-b7b90de8f846" />
+
+| Label | Cluster Color | Segment Name               | Rationale                                                                 | Recommended Strategy                                                                 |
+|-------|----------------|----------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| 0     | 🔵 Blue         | Consistent Buyers – Retain | Repeat purchasers with consistent behavior, though not always recent      | Loyalty programs, exclusive offers, and ongoing communication                        |
+| 1     | 🟠 Orange       | Low-Engagement Buyers – Reactivate | Minimal history and low activity, but potential if re-engaged         | Personalized outreach, limited-time offers, and reminder messaging                   |
+| 2     | 🟢 Green        | Early-Stage Buyers – Nurture | Recently engaged, low value and frequency; likely new customers           | Relationship-building, standout service, and thoughtful incentives                   |
+| 3     | 🔴 Red          | High-Value Loyalists – Reward | Frequent, high-value purchases and strong engagement; critical segment    | Premium loyalty programs, exclusive perks, and personalized recognition              |
+
+<h5> Outlier Customers </h5>
+<img width="1189" height="1790" alt="image" src="https://github.com/user-attachments/assets/e748bd99-6363-4499-909d-ace759e0e615" />
+
+| Label | Cluster Color | Segment Name                  | Rationale                                                                 | Recommended Strategy                                                                 |
+|-------|----------------|-------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| -1    | 🟣 Purple       | High-Spend Infrequents – Pamper | Significant spenders with low purchase frequency and high recency; valuable but sporadic | Curate exclusive offers, concierge-style service, and personalized outreach. Use predictive modeling to gently re-engage. |
+| -2    | 🟡 Yellow       | Frequent Frugals – Upsell       | Highly engaged with frequent purchases but low spend; low recency suggests recent activity | Introduce tiered loyalty programs, product bundles, and cross-sell nudges. Emphasize value to grow basket size. |
+| -3    | 💗 Magenta      | Top-tier – Delight         | Top-tier customers with high spend and frequency; low recency indicates strong recent engagement | Launch VIP tiers, early access to launches, and personalized thank-you campaigns. Explore co-creation and feedback loops. |
 
 6. Recommendations
