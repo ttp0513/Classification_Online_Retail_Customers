@@ -138,10 +138,10 @@ This analysis allows us to tailor strategies for each group, as shared below
 
 | Label | Cluster Color | Segment Name               | Rationale                                                                 | Recommended Strategy                                                                 |
 |-------|----------------|----------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| 0     | 🔵 Blue         | Consistent Buyers – Retain | Repeat purchasers with consistent behavior, though not always recent      | Loyalty programs, exclusive offers, and ongoing communication                        |
-| 1     | 🟠 Orange       | Low-Engagement Buyers – Reactivate | Minimal history and low activity, but potential if re-engaged         | Personalized outreach, limited-time offers, and reminder messaging                   |
-| 2     | 🟢 Green        | Early-Stage Buyers – Nurture | Recently engaged, low value and frequency; likely new customers           | Relationship-building, standout service, and thoughtful incentives                   |
-| 3     | 🔴 Red          | High-Value Loyalists – Reward | Frequent, high-value purchases and strong engagement; critical segment    | Premium loyalty programs, exclusive perks, and personalized recognition              |
+| 0     | 🔵 Blue         | Consistent Buyers - Retain | Repeat purchasers with consistent behavior, though not always recent      | Loyalty programs, exclusive offers, and ongoing communication                        |
+| 1     | 🟠 Orange       | Low-Engagement Buyers - Reactivate | Minimal history and low activity, but potential if re-engaged         | Personalized outreach, limited-time offers, and reminder messaging                   |
+| 2     | 🟢 Green        | Early-Stage Buyers - Nurture | Recently engaged, low value and frequency; likely new customers           | Relationship-building, standout service, and thoughtful incentives                   |
+| 3     | 🔴 Red          | High-Value Loyalists - Reward | Frequent, high-value purchases and strong engagement; critical segment    | Premium loyalty programs, exclusive perks, and personalized recognition              |
 
 <h4> Outlier Customers (High-Impact Segments) </h4>
 
@@ -156,7 +156,7 @@ Then, violin plots were used to examine each cluster’s spread:
 These visualizations help generate more thoughtful strategies for high-impact customers, as shared below:
 | Label | Cluster Color | Segment Name                  | Rationale                                                                 | Recommended Strategy                                                                 |
 |-------|----------------|-------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| -1    | 🟣 Purple       | High-Spend Infrequents – Pamper | Significant spenders with low purchase frequency and high recency; valuable but sporadic | Curate exclusive offers, concierge-style service, and personalized outreach. Use predictive modeling to gently re-engage. |
-| -2    | 🟡 Yellow       | Frequent Frugals – Upsell       | Highly engaged with frequent purchases but low spend; low recency suggests recent activity | Introduce tiered loyalty programs, product bundles, and cross-sell nudges. Emphasize value to grow basket size. |
-| -3    | 💗 Magenta      | Top-tier – Delight         | Top-tier customers with high spend and frequency; low recency indicates strong recent engagement | Launch VIP tiers, early access to launches, and personalized thank-you campaigns. Explore co-creation and feedback loops. |
+| -1    | 🟣 Purple       | High-Spend Infrequents - Pamper | Significant spenders with low purchase frequency and high recency; valuable but sporadic | Curate exclusive offers, concierge-style service, and personalized outreach. Use predictive modeling to gently re-engage. |
+| -2    | 🟡 Yellow       | Frequent Frugals - Upsell       | Highly engaged with frequent purchases but low spend; low recency suggests recent activity | Introduce tiered loyalty programs, product bundles, and cross-sell nudges. Emphasize value to grow basket size. |
+| -3    | 💗 Magenta      | Top-tier - Delight         | Top-tier customers with high spend and frequency; low recency indicates strong recent engagement | Launch VIP tiers, early access to launches, and personalized thank-you campaigns. Explore co-creation and feedback loops. |
 
