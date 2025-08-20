@@ -97,7 +97,7 @@ Below is the overview visualization of each cluster performance:
 <br>
 <img width="1189" height="989" alt="image" src="https://github.com/user-attachments/assets/04d7462e-9232-4da9-b387-5171b1f6d71f" />
 
-<h1> 4. Insights Deep Dive </h1>
+<h1> 4. Insights Deep Dive & Recommendations </h1>
 <h3> Data Cleaning & EDA </h3>
 Before conducting segmentation, I applied rigorous data cleaning to ensure analytical integrity and removed <strong>~23%</strong> of records from the original dataset due to
 </ul>
