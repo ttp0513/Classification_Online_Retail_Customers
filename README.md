@@ -136,12 +136,14 @@ The visual charts demonstrate patterns that simple averages would miss, like whe
 
 This analysis allows us to tailor strategies for each group, as shared below
 <div style='font-size:90%; padding: 2px'>
+  
 | Label | Cluster Color | Segment Name               | Rationale                                                                 | Strategy                                                                 |
 |-------|------------------|----------------------------|---------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | 0     | 🔵 Blue         | Consistent Buyers - Retain | Repeat purchasers with consistent behavior, though not always recent      | <span style="font-size:90%">Loyalty programs, exclusive offers, and ongoing communication</span> |
 | 1     | 🟠 Orange       | Low-Engagement Buyers - Reactivate | Minimal history and low activity, but potential if re-engaged         | <span style="font-size:90%">Personalized outreach, limited-time offers, and reminder messaging</span> |
 | 2     | 🟢 Green        | Early-Stage Buyers - Nurture | Recently engaged, low value and frequency; likely new customers           | <span style="font-size:90%">Relationship-building, standout service, and thoughtful incentives</span> |
 | 3     | 🔴 Red          | High-Value Loyalists - Reward | Frequent, high-value purchases and strong engagement; critical segment    | <span style="font-size:90%">Premium loyalty programs, exclusive perks, and personalized recognition</span> |
+
 </div>
 <h4> Outlier Customers (High-Impact Segments) </h4>
 
@@ -152,11 +154,14 @@ To explore these customers, the same clustering approach was used as with core s
 
 Then, violin plots were used to examine each cluster’s spread:
 <img width="1189" height="1790" alt="image" src="https://github.com/user-attachments/assets/e748bd99-6363-4499-909d-ace759e0e615" />
-<div style='font-size:90%; padding: 2px'>
+
 These visualizations help generate more thoughtful strategies for high-impact customers, as shared below:
+<div style='font-size:90%; padding: 2px'>
+  
 | Label | Cluster Color | Segment Name                  | Rationale                                                                 | Recommended Strategy                                                                 |
 |-------|----------------|-------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | -1    | 🟣 Purple       | High-Spend Infrequents - Pamper | Significant spenders with low purchase frequency and high recency; valuable but sporadic | <span style="font-size:90%">Curate exclusive offers, concierge-style service, and personalized outreach. Use predictive modeling to gently re-engage.</span> |
 | -2    | 🟡 Yellow       | Frequent Frugals - Upsell       | Highly engaged with frequent purchases but low spend; low recency suggests recent activity | <span style="font-size:90%">Introduce tiered loyalty programs, product bundles, and cross-sell nudges. Emphasize value to grow basket size.</span> |
 | -3    | 💗 Magenta      | Top-tier - Delight         | Top-tier customers with high spend and frequency; low recency indicates strong recent engagement | <span style="font-size:90%">Launch VIP tiers, early access to launches, and personalized thank-you campaigns. Explore co-creation and feedback loops.</span> |
+
 </div>
