@@ -136,8 +136,8 @@ The visual charts demonstrate patterns that simple averages would miss, like whe
 
 This analysis allows us to tailor strategies for each group, as shared below
 
-| Label | Cluster Color | Segment Name               | Rationale                                                                 | Strategy                                                                 |
-|-------|-------------------|----------------------------|---------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| Label | Cluster Color     | Segment Name               | Rationale                                                                 | Strategy                                                                 |
+|-------|----------------------|----------------------------|---------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | 0     | 🔵 Blue         | Consistent Buyers - Retain | Repeat purchasers with consistent behavior, though not always recent      | <span style="font-size:90%">Loyalty programs, exclusive offers, and ongoing communication</span> |
 | 1     | 🟠 Orange       | Low-Engagement Buyers - Reactivate | Minimal history and low activity, but potential if re-engaged         | <span style="font-size:90%">Personalized outreach, limited-time offers, and reminder messaging</span> |
 | 2     | 🟢 Green        | Early-Stage Buyers - Nurture | Recently engaged, low value and frequency; likely new customers           | <span style="font-size:90%">Relationship-building, standout service, and thoughtful incentives</span> |
