@@ -118,8 +118,9 @@ These outliers are not discarded, as they represent high-value, highly engaged c
 
 <h3> Customer Segmentation Analysis </h3>
 
-<h5> Non-outlier Customers (Core Segments) </h5>
-four distinct customer segments were identified within the non-outlier population using KMeans clustering on RFM metrics  (Recency vs Frequency vs Monetary). By plotting the clusters in a 3D scatterplot, a clear separation between behavioral groups was visualized, each representing a unique stage in the customer lifecycle.
+<h4> Non-outlier Customers (Core Segments) </h4>
+
+Four distinct customer segments were identified within the non-outlier population using KMeans clustering on RFM metrics  (Recency vs Frequency vs Monetary). By plotting the clusters in a 3D scatterplot, a clear separation between behavioral groups was visualized, each representing a unique stage in the customer lifecycle.
 
 <img width="794" height="812" alt="image" src="https://github.com/user-attachments/assets/4f4cd814-65e7-4b30-aee8-a7f6522fbb39" />
 
@@ -142,7 +143,8 @@ This analysis allows us to tailor strategies for each group, as shared below
 | 2     | 🟢 Green        | Early-Stage Buyers – Nurture | Recently engaged, low value and frequency; likely new customers           | Relationship-building, standout service, and thoughtful incentives                   |
 | 3     | 🔴 Red          | High-Value Loyalists – Reward | Frequent, high-value purchases and strong engagement; critical segment    | Premium loyalty programs, exclusive perks, and personalized recognition              |
 
-<h5> Outlier Customers (High-Impact Segments) </h5>
+<h4> Outlier Customers (High-Impact Segments) </h4>
+
 Outlier customers were identified as those with exceptionally high spend or purchase frequency, far beyond the typical range. While they represent a small portion of the customer base, their behavior is critical to understand because they contribute disproportionately to revenue and may require specialized engagement.
 
 To explore these customers, the same clustering approach was used as with core segments, but focused only on the outlier group. To visualize their behavior, 3D chart was created (Recency, Frequency, Monetary), which revealed distinct patterns, some were frequent buyers with moderate spend, while others made fewer purchases but spent large amounts.
