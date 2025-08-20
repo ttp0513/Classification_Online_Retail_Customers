@@ -117,11 +117,23 @@ Outliers in Monetary Value and Frequency are visually evident in boxplots, where
 These outliers are not discarded, as they represent high-value, highly engaged customers of the client business. Therefore, another separate analysis was conducted to analyze top-tier customers behaviors without distorting the clustering of the broader population.
 
 <h3> Customer Segmentation Analysis </h3>
-Seven unique segments were identified, each representing a different stage in the customer lifecycle, from newly acquired to highly loyal.
+
+<h5> Non-outlier Customers (Core Segments) </h5>
+four distinct customer segments were identified within the non-outlier population using KMeans clustering on RFM metrics  (Recency vs Frequency vs Monetary). By plotting the clusters in a 3D scatterplot, a clear separation between behavioral groups was visualized, each representing a unique stage in the customer lifecycle.
+
 <img width="794" height="812" alt="image" src="https://github.com/user-attachments/assets/4f4cd814-65e7-4b30-aee8-a7f6522fbb39" />
 
-<h5> Non-outlier Customers </h5>
+To further understand the distribution and variability within each segment, violin plots were created for each dimension. 
 <img width="1189" height="1790" alt="image" src="https://github.com/user-attachments/assets/3f93ce0d-3061-48c9-87c9-b7b90de8f846" />
+
+This revealed:
+<ul>
+<li> Some customers buy frequently and spend consistently, these are our loyal core. </li>
+<li> Others are newer or less engaged, with more scattered behavior, these are our growth opportunities. </li>
+</ul>
+The visual charts demonstrate patterns that simple averages would miss, like whether a group has steady spenders or just a few big buyers.
+
+This analysis allows us to tailor strategies for each group, as shared below
 
 | Label | Cluster Color | Segment Name               | Rationale                                                                 | Recommended Strategy                                                                 |
 |-------|----------------|----------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
@@ -130,13 +142,19 @@ Seven unique segments were identified, each representing a different stage in th
 | 2     | 🟢 Green        | Early-Stage Buyers – Nurture | Recently engaged, low value and frequency; likely new customers           | Relationship-building, standout service, and thoughtful incentives                   |
 | 3     | 🔴 Red          | High-Value Loyalists – Reward | Frequent, high-value purchases and strong engagement; critical segment    | Premium loyalty programs, exclusive perks, and personalized recognition              |
 
-<h5> Outlier Customers </h5>
+<h5> Outlier Customers (High-Impact Segments) </h5>
+Outlier customers were identified as those with exceptionally high spend or purchase frequency, far beyond the typical range. While they represent a small portion of the customer base, their behavior is critical to understand because they contribute disproportionately to revenue and may require specialized engagement.
+
+To explore these customers, the same clustering approach was used as with core segments, but focused only on the outlier group. To visualize their behavior, 3D chart was created (Recency, Frequency, Monetary), which revealed distinct patterns, some were frequent buyers with moderate spend, while others made fewer purchases but spent large amounts.
+<img width="793" height="812" alt="image" src="https://github.com/user-attachments/assets/51c9d379-669d-4a20-917f-6f24ee68915c" />
+
+Then, violin plots were used to examine each cluster’s spread:
 <img width="1189" height="1790" alt="image" src="https://github.com/user-attachments/assets/e748bd99-6363-4499-909d-ace759e0e615" />
 
+These visualizations help generate more thoughtful strategies for high-impact customers, as shared below:
 | Label | Cluster Color | Segment Name                  | Rationale                                                                 | Recommended Strategy                                                                 |
 |-------|----------------|-------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | -1    | 🟣 Purple       | High-Spend Infrequents – Pamper | Significant spenders with low purchase frequency and high recency; valuable but sporadic | Curate exclusive offers, concierge-style service, and personalized outreach. Use predictive modeling to gently re-engage. |
 | -2    | 🟡 Yellow       | Frequent Frugals – Upsell       | Highly engaged with frequent purchases but low spend; low recency suggests recent activity | Introduce tiered loyalty programs, product bundles, and cross-sell nudges. Emphasize value to grow basket size. |
 | -3    | 💗 Magenta      | Top-tier – Delight         | Top-tier customers with high spend and frequency; low recency indicates strong recent engagement | Launch VIP tiers, early access to launches, and personalized thank-you campaigns. Explore co-creation and feedback loops. |
 
-6. Recommendations
