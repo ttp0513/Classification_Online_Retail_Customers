@@ -136,12 +136,12 @@ The visual charts demonstrate patterns that simple averages would miss, like whe
 
 This analysis allows us to tailor strategies for each group, as shared below
 
-| Label | Cluster Color | Segment Name               | Rationale                                                                 | Recommended Strategy                                                                 |
-|-------|----------------|----------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| 0     | 🔵 Blue         | Consistent Buyers - Retain | Repeat purchasers with consistent behavior, though not always recent      | Loyalty programs, exclusive offers, and ongoing communication                        |
-| 1     | 🟠 Orange       | Low-Engagement Buyers - Reactivate | Minimal history and low activity, but potential if re-engaged         | Personalized outreach, limited-time offers, and reminder messaging                   |
-| 2     | 🟢 Green        | Early-Stage Buyers - Nurture | Recently engaged, low value and frequency; likely new customers           | Relationship-building, standout service, and thoughtful incentives                   |
-| 3     | 🔴 Red          | High-Value Loyalists - Reward | Frequent, high-value purchases and strong engagement; critical segment    | Premium loyalty programs, exclusive perks, and personalized recognition              |
+| Label | Cluster Color | Segment Name               | Rationale                                                                 | Strategy                                                                 |
+|-------|----------------|----------------------------|---------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| 0     | 🔵 Blue         | Consistent Buyers - Retain | Repeat purchasers with consistent behavior, though not always recent      | <span style="font-size:90%">Loyalty programs, exclusive offers, and ongoing communication</span> |
+| 1     | 🟠 Orange       | Low-Engagement Buyers - Reactivate | Minimal history and low activity, but potential if re-engaged         | <span style="font-size:90%">Personalized outreach, limited-time offers, and reminder messaging</span> |
+| 2     | 🟢 Green        | Early-Stage Buyers - Nurture | Recently engaged, low value and frequency; likely new customers           | <span style="font-size:90%">Relationship-building, standout service, and thoughtful incentives</span> |
+| 3     | 🔴 Red          | High-Value Loyalists - Reward | Frequent, high-value purchases and strong engagement; critical segment    | <span style="font-size:90%">Premium loyalty programs, exclusive perks, and personalized recognition</span> |
 
 <h4> Outlier Customers (High-Impact Segments) </h4>
 
